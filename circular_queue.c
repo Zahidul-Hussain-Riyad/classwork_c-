@@ -6,7 +6,7 @@ int front=-1, rear=-1;
 
 void enqueue(int x)
  {
-    if((rear + 1)%SIZE==front){
+    if((rear+1)%SIZE==front){
         printf("Overflow.\n");
     }
     else if(front==-1 && rear==-1){
